@@ -1,0 +1,370 @@
+:root {
+  --bg: #191724;
+  --bg-alt: #191724;
+  --text: #FFFFFF;
+  --accent: #BFFC57;
+  --muted: #8b949e;
+  --border: #BFFC57;
+  --radius: 8px;
+  --max-width: 900px;
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  background: #010409;
+}
+
+.nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1.5fr);
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  margin: 0 0 0.5rem;
+}
+
+.hero-subtitle {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: var(--bg-alt);
+  color: var(--text);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #0d1117;
+  border-color: transparent;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+.btn:hover {
+  border-color: var(--accent);
+}
+
+.hero-avatar {
+  justify-self: center;
+}
+
+.hero-avatar img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  object-fit: cover;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.section-description {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--bg-alt);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.card p {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: #010409;
+}
+
+footer a {
+  color: var(--muted);
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    text-align: left;
+  }
+
+  .hero-avatar {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+/* Fun Facts GitHub-style Card */
+.fact-card {
+  background: var(--bg-alt);
+  height: 6in;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: background 0.2s ease;
+}
+
+.fact-card:hover {
+  background: #1c2128;
+}
+
+#fact-text {
+  flex: 1;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  min-height: 2.5rem;
+}
+
+/* Arrows styled like GitHub buttons */
+.arrow {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 1.4rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.arrow:hover {
+  background: var(--bg-alt);
+  border-color: var(--accent);
+}
+
+/* Fade animation */
+.fade {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.image-wrapper {
+  position: relative;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LANDSCAPE MODE → width fills box */
+#fact-image.landscape {
+  width: 100%;
+  height: auto;
+}
+
+/* PORTRAIT MODE → height fills box */
+#fact-image.portrait {
+  max-height: 5in;
+  height: 100%;
+  width: auto;
+}
+
+
+.info-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--accent);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.info-btn:hover {
+  background: var(--bg-alt);
+  border-color: var(--accent);
+}
+
+/* Popup box */
+.info-popup {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  width: 220px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+#travel-map {
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden; /* ensures rounded corners clip the map tiles */
+  
+  margin: 0 auto;
+  width:95%;
+}
+

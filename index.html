@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sean Kawano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal website of Sean Kawano" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  
+
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <div class="nav-title">Sean Kawano (河野 ショーン)</div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <h1 class="hero-title"> Sean Kawano </h1>
+        <p>
+          I am currently a pursing a bachelor of arts in mathematics at the UW Seattle. 
+          I have interests in knot theory and machine learning. 
+        </p>
+      </div>
+      <div class="hero-avatar">
+        <p></p>
+      </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Things I've worked on!</h2>
+      <p class="section-description">
+         ... and may still need to finish
+      </p>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Taming Wild Knots With Mosaics</h3>
+          <p> Formalizing a new theory of tree mosaics to represent and classify families of wild knots.
+            In preparation.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>EV Charging Stations</h3>
+          <p>Using persistent homology and optimal cycle representatives to identify gaps in EV charging station coverage throughout the US.</p>
+          <a href="https://github.com/seankawano/ph_coverage">View on GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h3>Computing Unknotting Numbers</h3>
+          <p>Applying a result of Duncan McCoy to compute unknotting numbers for large alternating knots</p>
+          <a href="https://github.com/seankawano/unknotting">View on GitHub →</a>
+        </article>
+      </div>
+
+    </section>
+
+    <!-- Travel -->
+
+
+    <section id="projects">
+      <h2>Places I've gone for math stuff</h2>
+      <p class="section-description">
+         Green 🟩 : already visted<br>
+         Yellow 🟨 : intending to go <br>
+    </p>
+    <div id="travel-map" style="height: 500px;">
+    
+    </div>
+        
+    </section>
+
+    <section id="fun-facts">
+      <h2>Artwork I enjoy</h2>
+
+      <div class="fact-card">
+        <button class="arrow left" onclick="prevFact()">&#10094;</button>
+
+        <div class="fact-content">
+          <div class="image-wrapper">
+            <img id="fact-image" class="fade" src="" alt="Fun fact image">
+
+            <!-- Info button overlay -->
+            <button id="info-btn" class="info-btn" onclick="toggleInfo()">i</button>
+
+            <!-- Popup box -->
+            <div id="info-popup" class="info-popup hidden"></div>
+          </div>
+
+          <div id="fact-text" class="fade">Loading…</div>
+        </div>
+
+        <button class="arrow right" onclick="nextFact()">&#10095;</button>
+      </div>
+    </section>
+    <script src="funfacts.js"></script>
+
+
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Have a question?</h2>
+      <p> Contact me at <a href="mailto:seanh.kawano@gmail.com">seanh.kawano@gmail.com</a>!</p>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+
+
+</html>

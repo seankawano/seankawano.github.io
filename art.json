@@ -1,0 +1,19 @@
+
+[
+  {
+    "text": "'Puget Sound on the Pacific Coast' by Albert Beirstadt",
+    "image": "images/Albert_Bierstadt.jpg",
+    "moreInfo": "According to the Seattle Art Museum, Beirstadt painted this in 1870 without having been to the Puget Sound. Nonetheless, the dark clouds pierced by beams of light, the green waves crashing on the shore, and the people finding refuge under the rocky slopes is perfect granduer."
+  },
+  {
+    "text": "'Mäda Primavesi' by Gustav Klimt",
+    "image": "images/Gustav_Klimt.jpg",
+    "moreInfo": "I first saw this painting while visiting the MET with my mom. I love how it feels like Mäda's stoic expression and assured stance contrasts the colorful smudginess of her dress and surroundings."
+  },
+  {
+    "text": "Map of the French invasion of Russia by Charles Minard",
+    "image": "images/Charles_Minard.png",
+    "moreInfo": "I first saw this map in Ed Tufte's book on quantitative data. He claims Minard's visualization of Napolean's campaign 'may well be the best statistical graphic ever drawn'"
+  }
+]
+

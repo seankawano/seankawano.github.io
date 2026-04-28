@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "name": "D.C.",
+      "lat": 38.8961,
+      "lng": -77.0247,
+      "reason": "Joint Mathematics Meetings (Jan 2026)"
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.8557,
+      "lng": -87.6495,
+      "reason": "Undergraduate Mathematics Symposium (Nov 2025)"
+    },
+    {
+      "name": "Tacoma",
+      "lat": 47.2510,
+      "lng": -122.4392,
+      "reason": "MAA-PNW Section Meeting (April 2025)"
+    }
+  ],
+
+  "states": ["Washington", "Illinois", "District of Columbia"],
+
+  "countries": [ ],
+
+  "planned": {
+    "cities": [
+      {
+        "name": "Seattle",
+        "lat": 47.6173,
+        "lng": -122.3192,
+        "reason": " Pacific Northwest Geometry Seminar (May 2026)"
+      },
+      {
+        "name": "Portland",
+        "lat": 45.5547,
+        "lng": -122.6586,
+        "reason": "Cascade Topology Seminar (May 2026)"
+      },
+      {
+        "name": "Madison",
+        "lat": 43.0596,
+        "lng": -89.4257,
+        "reason": "Geometry Labs United IV (June 2026)"
+      }
+    ],
+    "states": ["Oregon", "Wisconsin"],
+    "countries": []
+  }
+
+}
