@@ -239,7 +239,7 @@ footer a:hover {
 /* Fun Facts GitHub-style Card */
 .fact-card {
   background: var(--bg-alt);
-  height: 6in;
+  height: 8in;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.5rem;
@@ -313,7 +313,7 @@ footer a:hover {
 
 /* PORTRAIT MODE → height fills box */
 #fact-image.portrait {
-  max-height: 5in;
+  max-height: 7in;
   height: 100%;
   width: auto;
 }

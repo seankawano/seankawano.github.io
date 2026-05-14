@@ -10,15 +10,16 @@
     "image": "images/Gustav_Klimt.jpg",
     "moreInfo": "I first saw this painting while visiting the MET with my mom. I love how it feels like Mäda's stoic expression and assured stance contrasts the colorful smudginess of her dress and surroundings."
   },
+    {
+    "text": "Isochrone of the Melbourne railway system 1910–1922",
+    "image": "images/Melbourne_Railway.jpg",
+    "moreInfo": "I found this image while reading the Wikipedia page for Isochrones. As a causal fan of public transportation, I loved the idea being visualized. Plus, the colors and aesthetic are really nice."
+  },
   {
     "text": "Map of the French invasion of Russia by Charles Minard",
     "image": "images/Charles_Minard.png",
     "moreInfo": "I first saw this map in Ed Tufte's book on quantitative data. He claims Minard's visualization of Napolean's campaign 'may well be the best statistical graphic ever drawn'"
-  },
-  {
-    "text": "Isochrone of the Melbourne railway system 1910–1922",
-    "image": "images/Melbourne_Railway.png",
-    "moreInfo": "I found this image while reading the Wikipedia page for Isochrones. As a causal fan of public transportation, I loved the idea being visualized. Plus, the colors and aesthetics are really nice."
   }
+
 ]
 
