@@ -3,7 +3,7 @@
   {
     "text": "'Puget Sound on the Pacific Coast' by Albert Beirstadt",
     "image": "images/Albert_Bierstadt.jpg",
-    "moreInfo": "According to the Seattle Art Museum, Beirstadt painted this in 1870 without having been to the Puget Sound. Nonetheless, the dark clouds pierced by beams of light, the green waves crashing on the shore, and the people finding refuge under the rocky slopes is perfect granduer."
+    "moreInfo": "According to the Seattle Art Museum, Beirstadt painted this in 1870 without having been to the Puget Sound. Nonetheless, I love the drama and granduer of it all."
   },
   {
     "text": "'Mäda Primavesi' by Gustav Klimt",
@@ -14,6 +14,11 @@
     "text": "Map of the French invasion of Russia by Charles Minard",
     "image": "images/Charles_Minard.png",
     "moreInfo": "I first saw this map in Ed Tufte's book on quantitative data. He claims Minard's visualization of Napolean's campaign 'may well be the best statistical graphic ever drawn'"
+  },
+  {
+    "text": "Isochrone of the Melbourne railway system 1910–1922",
+    "image": "images/Melbourne_Railway.png",
+    "moreInfo": "I found this image while reading the Wikipedia page for Isochrones. As a causal fan of public transportation, I loved the idea being visualized. Plus, the colors and aesthetics are really nice."
   }
 ]
 

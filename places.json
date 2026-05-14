@@ -33,19 +33,13 @@
         "reason": " Pacific Northwest Geometry Seminar (May 2026)"
       },
       {
-        "name": "Portland",
-        "lat": 45.5547,
-        "lng": -122.6586,
-        "reason": "Cascade Topology Seminar (May 2026)"
-      },
-      {
         "name": "Madison",
         "lat": 43.0596,
         "lng": -89.4257,
         "reason": "Geometry Labs United IV (June 2026)"
       }
     ],
-    "states": ["Oregon", "Wisconsin"],
+    "states": ["Wisconsin"],
     "countries": []
   }
 
