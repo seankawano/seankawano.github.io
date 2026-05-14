@@ -27,12 +27,6 @@
   "planned": {
     "cities": [
       {
-        "name": "Seattle",
-        "lat": 47.6173,
-        "lng": -122.3192,
-        "reason": " Pacific Northwest Geometry Seminar (May 2026)"
-      },
-      {
         "name": "Madison",
         "lat": 43.0596,
         "lng": -89.4257,
