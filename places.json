@@ -17,23 +17,24 @@
       "lat": 47.2510,
       "lng": -122.4392,
       "reason": "MAA-PNW Section Meeting (April 2025)"
-    }
-  ],
-
-  "states": ["Washington", "Illinois", "District of Columbia"],
-
-  "countries": [ ],
-
-  "planned": {
-    "cities": [
-      {
+    },
+    {
         "name": "Madison",
         "lat": 43.0596,
         "lng": -89.4257,
         "reason": "Geometry Labs United IV (June 2026)"
       }
-    ],
-    "states": ["Wisconsin"],
+  ],
+
+  "states": ["Washington", "Illinois", "District of Columbia", "Wisconsin"],
+
+  "countries": [ 
+    
+  ],
+
+  "planned": {
+    "cities": [],
+    "states": [],
     "countries": []
   }
 
